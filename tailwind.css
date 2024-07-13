@@ -45,3 +45,7 @@
     display: none;
   }
 }
+
+.drop:has(:not(article)) {
+  background-color: white;
+}
