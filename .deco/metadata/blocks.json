@@ -44,5 +44,19 @@
   "/.deco/blocks/deco-htmx.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/htmx.ts"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FPicker.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Picker.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FTeam.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Team.tsx"
+  },
+  "/.deco/blocks/pages-Team-573825.json": {
+    "name": "Team",
+    "path": "/*",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
