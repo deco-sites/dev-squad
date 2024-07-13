@@ -1,8 +1,12 @@
 import { useScript } from "deco/hooks/useScript.ts";
+import { invoke } from "site/runtime.ts";
 
 export default function Share() {
-  const onClick = () => {
+  const onClick = async () => {
     console.log("share!");
+    const data = await invoke["deco-sites/my-store"].loaders.myLoader({
+      /* your function input props */
+    });
   };
 
   return (
