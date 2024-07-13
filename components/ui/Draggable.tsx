@@ -1,6 +1,14 @@
 import { useScript } from "deco/hooks/useScript.ts";
+import { Member } from "site/sections/Members.tsx";
+import CardMember from "site/components/ui/CardMember.tsx";
 
-export default function Draggable() {
+interface DraggableProps {
+  members?: Member[];
+}
+
+export default function Draggable({ members }: DraggableProps) {
+  console.log(members);
+
   const onLoad = () => {
     Sortable.create(document.getElementById("list1"), {
       group: "shared",
@@ -25,20 +33,16 @@ export default function Draggable() {
       />
 
       <div class="flex w-full">
-        <div class="list half basis-1/2" id="list1">
-          <div>Item 1.1</div>
-          <div>Item 1.2</div>
-          <div>Item 1.3</div>
-          <div>Item 1.4</div>
-          <div>Item 1.5</div>
+        <div
+          class="list half basis-1/2 container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6"
+          id="list1"
+        >
+          {members && members.map((m) => {
+            return <CardMember member={m} />;
+          })}
         </div>
 
-        <div class="list half basis-1/2" id="list2">
-          <div>Item 2.1</div>
-          <div>Item 2.2</div>
-          <div>Item 2.3</div>
-          <div>Item 2.4</div>
-          <div>Item 2.5</div>
+        <div class="list half basis-1/2 h-80" id="list2">
         </div>
       </div>
     </>
