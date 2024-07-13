@@ -46,7 +46,14 @@
   }
 }
 
-/* Draggable custom styles */
+/**
+* Custom Styles
+*/
+body {
+  @apply border-x-8 md:border-x-[24px] border-primary;
+}
+
+/* Draggable */
 #drop-area:not(:has(article)) {
   @apply text-neutral before:content-['Drag_&_drop_your_team_here'] before:place-self-center before:col-start-1 before:col-end-6 before:row-start-1 before:row-end-1 before:text-center before:z-10 after:border after:border-dashed after:row-start-1 after:row-end-1 after:col-start-3 after:col-end-3 after:w-16 after:md:w-20 after:h-24 after:md:h-32 after:rounded-md after:opacity-50;
 }
