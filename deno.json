@@ -2,7 +2,7 @@
   "imports": {
     "site/": "./",
     "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.75.2/",
-    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.48.0/",
+    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.48.3/",
     "$fresh/": "https://deno.land/x/fresh@1.6.8/",
     "preact": "https://esm.sh/preact@10.19.6",
     "preact/": "https://esm.sh/preact@10.19.6/",
@@ -12,7 +12,10 @@
     "std/": "https://deno.land/std@0.190.0/",
     "daisyui": "npm:daisyui@4.4.19",
     "@tailwindcss/container-queries": "npm:@tailwindcss/container-queries@0.1.1",
-    "@deco/htmx": "https://denopkg.com/deco-cx/apps@0.48.0/htmx/mod.ts"
+    "@deco/htmx": "https://denopkg.com/deco-cx/apps@0.48.3/htmx/mod.ts",
+    "drizzle-orm": "https://esm.sh/drizzle-orm@0.30.10",
+    "drizzle-orm/": "https://esm.sh/drizzle-orm@0.30.10/",
+    "drizzle-kit": "https://esm.sh/drizzle-kit@0.21.2"
   },
   "tasks": {
     "start": "deno task bundle && deno run -A --env --config=deno.json $(deno eval 'console.log(import.meta.resolve(\"deco/hypervisor/main.ts\"))') --build-cmd 'deno task build' -- deno task dev",
@@ -28,7 +31,13 @@
     "cache_clean": "rm deno.lock; deno cache -r main.ts",
     "build": "deno run -A dev.ts build",
     "preview": "deno run -A main.ts",
-    "dev": "deno run -A --env --unstable --unstable-hmr dev.ts"
+    "dev": "deno run -A --env --unstable --unstable-hmr dev.ts",
+    "db:setup:deps": "deno cache -r --node-modules-dir npm:drizzle-orm@0.30.10 npm:drizzle-kit@0.21.2 npm:@libsql/client@0.6.0/node",
+    "db:check:credentials": "deno eval --env 'import{getDbCredentials}from\"apps/records/scripts/checkDbCredential.ts\";getDbCredentials();'",
+    "db:pull:prod": "deno eval --env 'import \"apps/records/scripts/pullProd.ts\"'",
+    "db:generate": "deno run -A --node-modules-dir npm:drizzle-kit@0.21.2 generate < /dev/null",
+    "db:migrate": "deno run -A --node-modules-dir --config=deno.json npm:drizzle-kit@0.21.2 migrate",
+    "db:schema:update": "DENO_FUTURE=1 deno task db:check:credentials && deno task db:generate && deno task db:migrate"
   },
   "githooks": {
     "pre-commit": "check"
