@@ -2864,9 +2864,9 @@
     },
     {
       "id": "/.deco/blocks/deco-records.json",
-      "name": "deco-records.json",
+      "name": "deco-records",
       "pinned": false,
-      "icon": "data-object",
+      "icon": "apps",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -2906,20 +2906,43 @@
             "content": [
               {
                 "type": "stack",
-                "width": 100,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fdeco-records.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fdeco-records.json%22%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fdeco-records.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fdeco-records.json%22%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fdeco-records.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fdeco-records.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fdeco-records.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fdeco-records.json%22%7D"
+                      "id": "%2F.deco%2Fblocks%2Fdeco-records.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fdeco-records.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fdeco-records.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fdeco-records.json::Preview::visibility::Preview::%7B%7D"
+                    },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -2935,16 +2958,26 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2Fdeco-records.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fdeco-records.json%22%7D": {
-          "name": "Code",
-          "icon": "code",
+        "%2F.deco%2Fblocks%2Fdeco-records.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
           "accepts": "function",
           "render": "function",
-          "viewId": "Code",
-          "viewProps": {
-            "spaceId": "/.deco/blocks/deco-records.json"
-          },
-          "id": "%2F.deco%2Fblocks%2Fdeco-records.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fdeco-records.json%22%7D",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fdeco-records.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fdeco-records.json::Preview::visibility::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "visibility",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fdeco-records.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
