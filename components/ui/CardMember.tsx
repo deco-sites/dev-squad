@@ -2,7 +2,7 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "./Icon.tsx";
 
-import type { Member } from "../sections/Members.tsx";
+import { Member } from "site/sections/Members.tsx";
 
 export default function Members({ member }: Member) {
   return (
