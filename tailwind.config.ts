@@ -1,7 +1,8 @@
 import daisyui from "daisyui";
+import containerQueries from "@tailwindcss/container-queries";
 
 export default {
-  plugins: [daisyui],
+  plugins: [daisyui, containerQueries],
   daisyui: { themes: [], logs: false },
   content: ["./**/*.tsx"],
   theme: {
@@ -9,6 +10,9 @@ export default {
     extend: {
       fontFamily: {
         "josefin-sans": "Josefin Sans, sans-serif",
+      },
+      containers: {
+        card: "120px",
       },
     },
   },

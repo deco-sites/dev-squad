@@ -4,7 +4,7 @@ import { Member } from "site/sections/Members.tsx";
 
 export default function Members({ member }: Member) {
   return (
-    <article class="bg-black text-neutral border border-primary rounded-md">
+    <article class="@container bg-black text-neutral border border-primary rounded-md">
       {member.imageUrl && (
         <Image
           src={member.imageUrl || ""}
@@ -14,7 +14,7 @@ export default function Members({ member }: Member) {
           class="rounded-md w-full object-cover"
         />
       )}
-      <div class="p-4 md:p-6 flex flex-col gap-3 md:gap-6">
+      <div class="hidden p-4 md:p-6 @card:flex flex-col gap-3 md:gap-6">
         <header class="flex flex-col gap-1 md:gap-3">
           <h2 class="font-josefin-sans text-lg md:text-xl">{member.name}</h2>
           <p class="line-clamp-2 text-xs">{member.description}</p>

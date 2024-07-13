@@ -3,6 +3,9 @@
   "path": "/",
   "sections": [
     {
+      "__resolveType": "Best team"
+    },
+    {
       "__resolveType": "Cards"
     },
     {
