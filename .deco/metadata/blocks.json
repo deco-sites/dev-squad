@@ -51,10 +51,6 @@
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
   },
-  "/.deco/blocks/Preview%20%2Fsections%2FDropArea.tsx.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/DropArea.tsx"
-  },
   "/.deco/blocks/Preview%20%2Fsections%2FHero.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Hero.tsx"

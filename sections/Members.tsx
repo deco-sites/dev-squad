@@ -1,6 +1,6 @@
 import { useScript } from "deco/hooks/useScript.ts";
 import CardMember from "../components/ui/CardMember.tsx";
-import DropArea from "./DropArea.tsx";
+import DropArea from "../components/ui/DropArea.tsx";
 
 export interface Member {
   /**
