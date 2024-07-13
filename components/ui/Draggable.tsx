@@ -41,7 +41,7 @@ export default function Draggable({ members }: DraggableProps) {
         })}
       </div>
 
-      <div class="bg-base-100 fixed bottom-6 left-1/2 -translate-x-1/2 grid grid-flow-col auto-cols-[64px] lg:auto-cols-[86px] place-content-center gap-4 w-full max-w-xl h-32 md:h-40 p-4 border border-primary rounded-md" id="drop-area">
+      <div class="bg-base-100 fixed bottom-6 left-1/2 -translate-x-1/2 grid grid-flow-col auto-cols-[64px] place-content-center gap-2 md:gap-4 w-full max-w-[340px] h-28 p-4 border border-primary rounded-md" id="drop-area">
       </div>
     </>
   );
