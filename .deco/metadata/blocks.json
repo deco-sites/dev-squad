@@ -62,5 +62,9 @@
   "/.deco/blocks/Preview%20%2Floaders%2FGetPickems.tsx.json": {
     "blockType": "loaders",
     "__resolveType": "site/loaders/GetPickems.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Floaders%2FSharePickems.tsx.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/SharePickems.tsx"
   }
 }

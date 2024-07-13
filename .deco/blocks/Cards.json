@@ -22,6 +22,59 @@
       "xUrl": "https://x.com/nestordotgg",
       "linkedInUrl": "https://www.linkedin.com/in/nestor-plysyuk/",
       "gitHubUrl": "https://github.com/Dayonel"
+    },
+    {
+      "name": "Midudev",
+      "description": "Te enseño Programación y Desarrollo Web. Creador de contenido en Twitch y YouTube.",
+      "imageUrl": "https://avatars.githubusercontent.com/u/1561955?v=4",
+      "role": "Content creation",
+      "score": 100,
+      "xUrl": "https://x.com/midudev",
+      "gitHubUrl": "https://github.com/midudev"
+    },
+    {
+      "gitHubUrl": "https://github.com/igorbrasileiro",
+      "name": "Igor Brasileiro",
+      "imageUrl": "https://avatars.githubusercontent.com/u/15680320?v=4",
+      "description": "Brazilian Software Engineer at https://deco.cx | Ex-vtex.",
+      "role": "Software Engineer",
+      "score": 99
+    },
+    {
+      "gitHubUrl": "https://github.com/tlgimenes",
+      "name": "Tiago Gimenes",
+      "imageUrl": "https://avatars.githubusercontent.com/u/1753396?v=4",
+      "description": "Computer Engineer living at Rio. Interested in optimization, hobby as A.I. enthusiast.",
+      "role": "Computer Engineer",
+      "score": 99,
+      "linkedInUrl": "https://www.linkedin.com/in/tlgimenes/"
+    },
+    {
+      "name": "Itamar Rocha Filho",
+      "description": "Interested in Software Engineering, Machine Learning and Startups.",
+      "imageUrl": "https://avatars.githubusercontent.com/u/53613091?v=4",
+      "role": "Software Engineering",
+      "score": 99,
+      "xUrl": "https://x.com/itaprf",
+      "linkedInUrl": "https://www.linkedin.com/in/itamarrocha/",
+      "gitHubUrl": "https://github.com/ItamarRocha"
+    },
+    {
+      "name": "The Primeagen",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1759330620160049152/2i_wkOoK_400x400.jpg",
+      "description": "CEO @ TheStartup | Stuck in vim | Wishing it was emacs | Twitch | YT | Beautiful wife | four kids |",
+      "role": "Content creator",
+      "score": 100,
+      "xUrl": "https://x.com/ThePrimeagen"
+    },
+    {
+      "xUrl": "https://x.com/PirateSoftware",
+      "name": "Pirate Software",
+      "description": "Game Developer 💛 Director of Strategy  @offbrand_games  💜 Making #Heartbound with  @RiverMakes  &  @StijnvanWakeren  💛 Business: Pirate@sidequestmedia.com",
+      "imageUrl": "https://pbs.twimg.com/profile_images/903246469288812545/3LM66GO4_400x400.jpg",
+      "role": "Content creator",
+      "score": 100,
+      "gitHubUrl": "https://github.com/PirateSoftware"
     }
   ]
 }
