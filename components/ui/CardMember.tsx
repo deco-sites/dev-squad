@@ -11,7 +11,7 @@ export default function Members({ member }: Member) {
           alt={`Profile picture from ${member.name}` || ""}
           height={160}
           width={280}
-          class="rounded-md w-full object-cover"
+          class="rounded-md w-20 @card:w-full h-32 @card:h-auto object-cover"
         />
       )}
       <div class="hidden p-4 md:p-6 @card:flex flex-col gap-3 md:gap-6">
