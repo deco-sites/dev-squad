@@ -3,9 +3,9 @@
   "members": [
     {
       "name": "Dawntraoz",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "description": "A Frontend Developer enthusiastic, Vue & Headless CMS lover. #GoogleDevExpert in Web & #MVP in Dev Technologies 🦸‍♀️ #WTM & #Nuxt Ambassador.",
       "id": 1,
-      "imageUrl": "https://pbs.twimg.com/profile_images/1771988990792466433/COFWUauH_400x400.jpg",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/c9312cef-a340-4f12-8404-b5beaec21717",
       "role": "Frontend Developer",
       "score": 99,
       "xUrl": "https://x.com/dawntraoz/photo",
@@ -15,8 +15,8 @@
     {
       "id": 2,
       "name": "Dayonel",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1751260155172286464/HIdlyGog_400x400.jpg",
+      "description": "With over 6 years in full-stack development, I understand that growth comes from overcoming challenges. I deliver high-quality work following best practices and continiously learning the latest advancements on the web.",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/02ec1309-048c-4477-b686-9cd3bda89019",
       "role": "Full Stack Developer",
       "score": 98,
       "xUrl": "https://x.com/nestordotgg",
@@ -26,7 +26,7 @@
     {
       "name": "Midudev",
       "description": "Te enseño Programación y Desarrollo Web. Creador de contenido en Twitch y YouTube.",
-      "imageUrl": "https://avatars.githubusercontent.com/u/1561955?v=4",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/5b69127c-dfd6-43e4-a92a-cf9c3f4902d4",
       "role": "Content creation",
       "score": 100,
       "xUrl": "https://x.com/midudev",
@@ -35,7 +35,7 @@
     {
       "gitHubUrl": "https://github.com/igorbrasileiro",
       "name": "Igor Brasileiro",
-      "imageUrl": "https://avatars.githubusercontent.com/u/15680320?v=4",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/ca34a3cd-98e0-4301-b9d1-b7f2b4e27ce5",
       "description": "Brazilian Software Engineer at https://deco.cx | Ex-vtex.",
       "role": "Software Engineer",
       "score": 99
@@ -43,7 +43,7 @@
     {
       "gitHubUrl": "https://github.com/tlgimenes",
       "name": "Tiago Gimenes",
-      "imageUrl": "https://avatars.githubusercontent.com/u/1753396?v=4",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/1246f565-cc09-41a0-a49f-9dc592f200d9",
       "description": "Computer Engineer living at Rio. Interested in optimization, hobby as A.I. enthusiast.",
       "role": "Computer Engineer",
       "score": 99,
@@ -52,7 +52,7 @@
     {
       "name": "Itamar Rocha Filho",
       "description": "Interested in Software Engineering, Machine Learning and Startups.",
-      "imageUrl": "https://avatars.githubusercontent.com/u/53613091?v=4",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/2ee36ab1-5b17-4ded-bef6-fe58c98afb61",
       "role": "Software Engineering",
       "score": 99,
       "xUrl": "https://x.com/itaprf",
@@ -61,7 +61,7 @@
     },
     {
       "name": "The Primeagen",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1759330620160049152/2i_wkOoK_400x400.jpg",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/2fd3a44a-30a4-4409-b06f-432c0546f209",
       "description": "CEO @ TheStartup | Stuck in vim | Wishing it was emacs | Twitch | YT | Beautiful wife | four kids |",
       "role": "Content creator",
       "score": 100,
@@ -71,7 +71,7 @@
       "xUrl": "https://x.com/PirateSoftware",
       "name": "Pirate Software",
       "description": "Game Developer 💛 Director of Strategy  @offbrand_games  💜 Making #Heartbound with  @RiverMakes  &  @StijnvanWakeren  💛 Business: Pirate@sidequestmedia.com",
-      "imageUrl": "https://pbs.twimg.com/profile_images/903246469288812545/3LM66GO4_400x400.jpg",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/432b1705-e3a4-4db0-b219-be230623df6c",
       "role": "Content creator",
       "score": 100,
       "gitHubUrl": "https://github.com/PirateSoftware"
@@ -79,7 +79,7 @@
     {
       "name": "Brendan Eich",
       "xUrl": "https://x.com/BrendanEich",
-      "imageUrl": "https://pbs.twimg.com/profile_images/603270050556956672/T0mfRsil_400x400.png",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/8db3ae55-f47e-41b4-b15e-593428a41f81",
       "description": "Co-founder & CEO  @Brave  Software (https://brave.com) and  @attentiontoken  (https://basicattentiontoken.org). Co-founded Mozilla & Firefox. Created JavaScript.",
       "role": "Software Engineering",
       "score": 100,
@@ -89,7 +89,7 @@
     {
       "name": "Shigeru Miyamoto",
       "description": "Creator of Mario, Legend of Zelda, Pikmin and Star Fox. Video Games designer and Producer  @Nintendo  *Parody Account*",
-      "imageUrl": "https://pbs.twimg.com/profile_images/810265593186308096/2eP4uQuw_400x400.jpg",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/a47a361e-9f74-4c34-8272-9e4a130d2838",
       "role": "Game Developer",
       "score": 99,
       "xUrl": "https://x.com/shigerumlyamoto"
@@ -97,7 +97,7 @@
     {
       "name": "Evan You",
       "description": "Husband, father of two, independent OSS dev.  @vuejs ,  @vite_js ,  @rolldown_rs , and more. Gaming/Manga/Sushi/F1/NBA/UFC. Chinese-only alt:  @yuxiyou",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1630207820359700480/a3pHtm6T_400x400.jpg",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/0f18c750-601a-49f0-80b7-2ef3dc14b51f",
       "role": "Software Engineer",
       "score": 100,
       "xUrl": "https://x.com/youyuxi",
@@ -107,7 +107,7 @@
       "xUrl": "https://x.com/rich_harris",
       "name": "Rich Harris",
       "description": "Cheese fan. I work on  @sveltejs  at  @vercel . When the asteroid finally obliterates this place you can find me at @rich_harris@toot.cafe. Until then, 🍿",
-      "imageUrl": "https://pbs.twimg.com/profile_images/557940120184041473/bFyXy8Pu_400x400.jpeg",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/dc7e4287-b75c-4959-be1a-914a818ce641",
       "role": "Sofware Engineer",
       "score": 99,
       "gitHubUrl": "https://github.com/Rich-Harris"
@@ -117,13 +117,13 @@
       "gitHubUrl": "https://github.com/jordwalke",
       "xUrl": "https://x.com/jordwalke",
       "description": "Created  @reactjs  and  @ReasonML .  Formerly  @facebook",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1333329963383103489/ee7VrWQy_400x400.jpg",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/4940331d-a19f-4cbe-a352-7741312db851",
       "score": 99,
       "role": "Software Engineer"
     },
     {
       "xUrl": "https://x.com/t3dotgg",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1799982162831396865/Fnol01I1_400x400.jpg",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/e6140ad6-3b71-4fc1-8dc8-92f5be96bbf9",
       "name": "Theo - t3.gg",
       "description": "I make videos, dev tools, companies, and investments.   Current things: http://uploadthing.com &  @pingdotgg  (YC W22)",
       "role": "Content creator",
@@ -133,7 +133,7 @@
     {
       "name": "Jarred Sumner",
       "description": "building  @bunjavascript . formerly:  @stripe  (twice)  @thielfellowship . high school dropout. npm i -g bun",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1342417825483300864/Vz4ChOFG_400x400.jpg",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/18b478bd-e817-48d1-8439-e7735bc75080",
       "role": "Software Engineer",
       "score": 98,
       "gitHubUrl": "https://x.com/jarredsumner"
@@ -142,7 +142,7 @@
       "xUrl": "https://x.com/leeerob",
       "name": "Lee Robinson",
       "description": "VP of Product  @Vercel . Helping developers build a faster web. Teaching about React and Next.js.",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1587647097670467584/adWRdqQ6_400x400.jpg",
+      "imageUrl": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/4acd32dc-b568-4168-b818-7b2a2cdb9ad3",
       "role": "Software Engineer",
       "score": 99,
       "gitHubUrl": "https://github.com/leerob"
