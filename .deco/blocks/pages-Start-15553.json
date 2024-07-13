@@ -12,5 +12,11 @@
       "__resolveType": "Footer"
     }
   ],
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Who's the best tech team 2024?",
+    "description": "Did you thought about who will be your best colleagues in a side project?"
+  }
 }
