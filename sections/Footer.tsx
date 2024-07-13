@@ -11,7 +11,7 @@ function Footer({
   text = "Created & designed with love by",
 }: Props) {
   return (
-    <footer class="py-8 px-4 w-full text-center text-neutral">
+    <footer class="pt-24 pb-8 px-4 w-full text-center text-neutral">
       <p>
         {text} {brand && (
           <a
