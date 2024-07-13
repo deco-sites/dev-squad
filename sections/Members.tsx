@@ -1,4 +1,5 @@
 import Draggable from "site/components/ui/Draggable.tsx";
+import Share from "site/components/ui/Share.tsx";
 
 export interface Member {
   /**
@@ -40,5 +41,10 @@ interface MemberProps {
 }
 
 export default function Members({ members }: MemberProps) {
-  return <Draggable members={members}></Draggable>;
+  return (
+    <>
+      <Draggable members={members}></Draggable>
+      <Share></Share>
+    </>
+  );
 }
