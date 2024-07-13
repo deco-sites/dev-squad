@@ -3,12 +3,13 @@
     "type": "website",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | deco.cx",
-    "title": "Start",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/40cc7da0-93d3-4215-9c2a-04b2f86b0a47",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/22c99167-0018-484f-8b0d-4295a7d771f2"
+    "description": "Choose the team member you will dream having in your team",
+    "titleTemplate": "%s | Dev Squad",
+    "descriptionTemplate": "%s",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/5b0f3346-ea52-4c2d-a913-75e4a8dea655",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/f8d98b99-094d-46a7-a3d6-d0f27a38e862",
+    "title": "Who's the best tech team",
+    "themeColor": "#171616"
   },
   "global": [
     {

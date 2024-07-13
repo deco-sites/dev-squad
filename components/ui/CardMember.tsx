@@ -6,7 +6,7 @@ export default function Members({ member, selected }: { member: Member, selected
   return (
     <article class={`@container bg-black text-neutral border border-primary rounded-md flex flex-wrap items-center ${member.name === selected && 'scale-110'}`}>
       {member.imageUrl && (
-        <Image
+        <img
           src={member.imageUrl || ""}
           alt={`Profile picture from ${member.name}` || ""}
           height={160}
@@ -38,7 +38,7 @@ export default function Members({ member, selected }: { member: Member, selected
           <span class="truncate">{member.role}</span>
         </p>
         <footer class="flex gap-x-2 lg:gap-x-4">
-          <a href={member.xUrl} target="_blank">
+          <a href={member.xUrl} aria-label={`Link to the Twitter of ${member.name}`} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -54,7 +54,7 @@ export default function Members({ member, selected }: { member: Member, selected
               <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
             </svg>
           </a>
-          <a href={member.linkedInUrl} target="_blank">
+          <a href={member.linkedInUrl} aria-label={`Link to the LinkedIn of ${member.name}`} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -72,7 +72,7 @@ export default function Members({ member, selected }: { member: Member, selected
               <circle cx="4" cy="4" r="2" />
             </svg>
           </a>
-          <a href={member.gitHubUrl} target="_blank">
+          <a href={member.gitHubUrl} aria-label={`Link to the GitHub of ${member.name}`} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
