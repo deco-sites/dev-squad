@@ -5,10 +5,9 @@ interface Props {
 }
 
 function Footer({
-  brand =
-    "DayoDawn",
-  href = "https://github.com/dayonel-dawntraoz",
-  text = "Created & designed with love by",
+  brand,
+  href,
+  text,
 }: Props) {
   return (
     <footer class="pt-24 pb-8 px-4 w-full text-center text-neutral">
