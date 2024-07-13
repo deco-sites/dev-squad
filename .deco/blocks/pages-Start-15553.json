@@ -3,10 +3,10 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Footer"
+      "__resolveType": "Cards"
     },
     {
-      "__resolveType": "Cards"
+      "__resolveType": "Footer"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
