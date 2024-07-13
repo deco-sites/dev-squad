@@ -58,5 +58,13 @@
     "path": "/*",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FMembers.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Members.tsx"
+  },
+  "/.deco/blocks/Cards.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Members.tsx"
   }
 }
