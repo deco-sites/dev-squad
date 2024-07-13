@@ -2,6 +2,8 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $$$$$$$$$0 from "./actions/Decrypt.tsx";
+import * as $$$$$$$$$1 from "./actions/Encrypt.tsx";
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Footer.tsx";
@@ -19,6 +21,10 @@ const manifest = {
     "site/sections/Picker.tsx": $$$$$$3,
     "site/sections/Team.tsx": $$$$$$4,
     "site/sections/Theme/Theme.tsx": $$$$$$5,
+  },
+  "actions": {
+    "site/actions/Decrypt.tsx": $$$$$$$$$0,
+    "site/actions/Encrypt.tsx": $$$$$$$$$1,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

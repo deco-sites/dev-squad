@@ -1,7 +1,7 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-interface Member {
+export interface Member {
   /**
    * @description Member name.
    */
