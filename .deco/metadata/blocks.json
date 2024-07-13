@@ -1,12 +1,4 @@
 {
-  "/.deco/blocks/Groovy%20Vibes.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/Theme/Theme.tsx"
-  },
-  "/.deco/blocks/Neutral.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/Theme/Theme.tsx"
-  },
   "/.deco/blocks/Preview%20%2Fsections%2FFooter.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Footer.tsx"
@@ -14,18 +6,6 @@
   "/.deco/blocks/Preview%20%2Fsections%2FItWorks.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/ItWorks.tsx"
-  },
-  "/.deco/blocks/Serene%20Coastline.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/Theme/Theme.tsx"
-  },
-  "/.deco/blocks/Sunset%20Glow.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/Theme/Theme.tsx"
-  },
-  "/.deco/blocks/Urban%20Chic.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/Theme/Theme.tsx"
   },
   "/.deco/blocks/pages-Start-15553.json": {
     "name": "Home",
@@ -66,5 +46,9 @@
   "/.deco/blocks/Cards.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Members.tsx"
+  },
+  "/.deco/blocks/CyberPunk.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Theme/Theme.tsx"
   }
 }

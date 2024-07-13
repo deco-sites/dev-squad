@@ -24,41 +24,6 @@ export interface ThemeColors {
   "tertiary"?: string;
   /** @format color-input */
   "neutral"?: string;
-  /** @format color-input */
-  "success"?: string;
-  /** @format color-input */
-  "warning"?: string;
-  /** @format color-input */
-  "error"?: string;
-  /** @format color-input */
-  "info"?: string;
-}
-
-export interface ComplementaryColors {
-  /** @format color-input */
-  "base-200"?: string;
-  /** @format color-input */
-  "base-300"?: string;
-  /** @format color-input */
-  "base-content"?: string;
-  /** @format color-input */
-  "primary-content"?: string;
-  /** @format color-input */
-  "secondary-content"?: string;
-  /**
-   * @title Accent Content
-   * @format color-input */
-  "tertiary-content"?: string;
-  /** @format color-input */
-  "neutral-content"?: string;
-  /** @format color-input */
-  "success-content"?: string;
-  /** @format color-input */
-  "warning-content"?: string;
-  /** @format color-input */
-  "error-content"?: string;
-  /** @format color-input */
-  "info-content"?: string;
 }
 
 export interface Button {
@@ -125,8 +90,6 @@ export interface Props {
    */
   colorScheme: "any" | "light" | "dark";
   mainColors?: ThemeColors;
-  /** @description These will be auto-generated to a readable color if not set */
-  complementaryColors?: ComplementaryColors;
   buttonStyle?: Button;
   otherStyles?: Miscellaneous;
   font?: Font;
@@ -138,7 +101,6 @@ export interface Props {
 
 type Theme =
   & ThemeColors
-  & ComplementaryColors
   & Button
   & Miscellaneous;
 
@@ -147,12 +109,6 @@ const darken = (color: string, percentage: number) =>
 
 const isDark = (c: Color) =>
   c.contrast("black", "WCAG21") < c.contrast("white", "WCAG21");
-
-const contrasted = (color: string, percentage = 0.8) => {
-  const c = new Color(color);
-
-  return isDark(c) ? c.mix("white", percentage) : c.mix("black", percentage);
-};
 
 const toVariables = (
   t: Theme & Required<ThemeColors>,
@@ -165,33 +121,14 @@ const toVariables = (
 
   const colorVariables = Object.entries({
     "--p": t["primary"],
-    "--pc": t["primary-content"] ?? contrasted(t["primary"]),
 
     "--s": t["secondary"],
-    "--sc": t["secondary-content"] ?? contrasted(t["secondary"]),
 
     "--a": t["tertiary"],
-    "--ac": t["tertiary-content"] ?? contrasted(t["tertiary"]),
 
     "--n": t["neutral"],
-    "--nc": t["neutral-content"] ?? contrasted(t["neutral"]),
 
     "--b1": t["base-100"],
-    "--b2": t["base-200"] ?? darken(t["base-100"], 0.07),
-    "--b3": t["base-300"] ?? darken(t["base-100"], 0.14),
-    "--bc": t["base-content"] ?? contrasted(t["base-100"]),
-
-    "--su": t["success"],
-    "--suc": t["success-content"] ?? contrasted(t["success"]),
-
-    "--wa": t["warning"],
-    "--wac": t["warning-content"] ?? contrasted(t["warning"]),
-
-    "--er": t["error"],
-    "--erc": t["error-content"] ?? contrasted(t["error"]),
-
-    "--in": t["info"],
-    "--inc": t["info-content"] ?? contrasted(t["info"]),
   }).map(([key, color]) => [key, toValue(color)] as [string, string]);
 
   const miscellaneousVariables = Object.entries({
@@ -215,10 +152,6 @@ const defaultTheme = {
   "tertiary": "oklch(1 0 0)",
   "neutral": "oklch(1 0 0)",
   "base-100": "oklch(1 0 0)",
-  "info": "oklch(1 0 0)",
-  "success": "oklch(0.9054 0.1546 194.7689)",
-  "warning": "oklch(1 0 0)",
-  "error": "oklch(1 0 0)",
 
   "--rounded-box": "1rem", // border radius rounded-box utility class, used in card and other large boxes
   "--rounded-btn": "0.2rem" as const, // border radius rounded-btn utility class, used in buttons and similar element
@@ -242,7 +175,6 @@ const defaultTheme = {
  */
 function Section({
   mainColors,
-  complementaryColors,
   buttonStyle,
   otherStyles,
   font,
@@ -250,7 +182,6 @@ function Section({
 }: Props) {
   const theme = {
     ...defaultTheme,
-    ...complementaryColors,
     ...mainColors,
     ...buttonStyle,
     ...otherStyles,

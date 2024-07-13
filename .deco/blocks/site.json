@@ -29,6 +29,6 @@
   "__resolveType": "site/apps/site.ts",
   "firstByteThresholdMS": true,
   "theme": {
-    "__resolveType": "Neutral"
+    "__resolveType": "CyberPunk"
   }
 }

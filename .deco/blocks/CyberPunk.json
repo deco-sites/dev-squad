@@ -1,0 +1,37 @@
+{
+  "__resolveType": "site/sections/Theme/Theme.tsx",
+  "colorScheme": "any",
+  "buttonStyle": {
+    "--border-btn": "1px",
+    "--rounded-btn": "0.8rem",
+    "--btn-focus-scale": "1.1",
+    "--animation-btn": "0.3s"
+  },
+  "otherStyles": {
+    "--rounded-box": "1rem",
+    "--rounded-badge": "1.9rem",
+    "--animation-input": "0.2s",
+    "--tab-border": "1px",
+    "--tab-radius": "0.5rem"
+  },
+  "mode": "dark",
+  "mainColors": {
+    "base-100": "#171616",
+    "primary": "#C6FF00",
+    "neutral": "#F4FFD8",
+    "secondary": "#00FFF0"
+  },
+  "font": {
+    "__resolveType": "website/loaders/fonts/googleFonts.ts",
+    "fonts": [
+      {
+        "variations": [
+          {
+            "weight": "500"
+          }
+        ],
+        "family": "Josefin Sans"
+      }
+    ]
+  }
+}
