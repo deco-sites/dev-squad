@@ -75,6 +75,77 @@
       "role": "Content creator",
       "score": 100,
       "gitHubUrl": "https://github.com/PirateSoftware"
+    },
+    {
+      "name": "Brendan Eich",
+      "xUrl": "https://x.com/BrendanEich",
+      "imageUrl": "https://pbs.twimg.com/profile_images/603270050556956672/T0mfRsil_400x400.png",
+      "description": "Co-founder & CEO  @Brave  Software (https://brave.com) and  @attentiontoken  (https://basicattentiontoken.org). Co-founded Mozilla & Firefox. Created JavaScript.",
+      "role": "Software Engineering",
+      "score": 100,
+      "gitHubUrl": "https://github.com/BrendanEich",
+      "linkedInUrl": "https://www.linkedin.com/in/brendaneich"
+    },
+    {
+      "name": "Shigeru Miyamoto",
+      "description": "Creator of Mario, Legend of Zelda, Pikmin and Star Fox. Video Games designer and Producer  @Nintendo  *Parody Account*",
+      "imageUrl": "https://pbs.twimg.com/profile_images/810265593186308096/2eP4uQuw_400x400.jpg",
+      "role": "Game Developer",
+      "score": 99,
+      "xUrl": "https://x.com/shigerumlyamoto"
+    },
+    {
+      "name": "Evan You",
+      "description": "Husband, father of two, independent OSS dev.  @vuejs ,  @vite_js ,  @rolldown_rs , and more. Gaming/Manga/Sushi/F1/NBA/UFC. Chinese-only alt:  @yuxiyou",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1630207820359700480/a3pHtm6T_400x400.jpg",
+      "role": "Software Engineer",
+      "score": 100,
+      "xUrl": "https://x.com/youyuxi",
+      "linkedInUrl": "https://www.linkedin.com/in/evanyou"
+    },
+    {
+      "xUrl": "https://x.com/rich_harris",
+      "name": "Rich Harris",
+      "description": "Cheese fan. I work on  @sveltejs  at  @vercel . When the asteroid finally obliterates this place you can find me at @rich_harris@toot.cafe. Until then, 🍿",
+      "imageUrl": "https://pbs.twimg.com/profile_images/557940120184041473/bFyXy8Pu_400x400.jpeg",
+      "role": "Sofware Engineer",
+      "score": 99,
+      "gitHubUrl": "https://github.com/Rich-Harris"
+    },
+    {
+      "name": "Jordan Walke",
+      "gitHubUrl": "https://github.com/jordwalke",
+      "xUrl": "https://x.com/jordwalke",
+      "description": "Created  @reactjs  and  @ReasonML .  Formerly  @facebook",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1333329963383103489/ee7VrWQy_400x400.jpg",
+      "score": 99,
+      "role": "Software Engineer"
+    },
+    {
+      "xUrl": "https://x.com/t3dotgg",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1799982162831396865/Fnol01I1_400x400.jpg",
+      "name": "Theo - t3.gg",
+      "description": "I make videos, dev tools, companies, and investments.   Current things: http://uploadthing.com &  @pingdotgg  (YC W22)",
+      "role": "Content creator",
+      "score": 99,
+      "gitHubUrl": "https://github.com/t3dotgg"
+    },
+    {
+      "name": "Jarred Sumner",
+      "description": "building  @bunjavascript . formerly:  @stripe  (twice)  @thielfellowship . high school dropout. npm i -g bun",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1342417825483300864/Vz4ChOFG_400x400.jpg",
+      "role": "Software Engineer",
+      "score": 98,
+      "gitHubUrl": "https://x.com/jarredsumner"
+    },
+    {
+      "xUrl": "https://x.com/leeerob",
+      "name": "Lee Robinson",
+      "description": "VP of Product  @Vercel . Helping developers build a faster web. Teaching about React and Next.js.",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1587647097670467584/adWRdqQ6_400x400.jpg",
+      "role": "Software Engineer",
+      "score": 99,
+      "gitHubUrl": "https://github.com/leerob"
     }
   ]
 }
