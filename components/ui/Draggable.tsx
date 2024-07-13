@@ -7,7 +7,12 @@ export default function Draggable() {
       animation: 150,
     });
     Sortable.create(document.getElementById("list2"), {
-      group: "shared",
+      group: {
+        name: "shared",
+        put: function (to) {
+          return to.el.children.length < 5;
+        },
+      },
       animation: 150,
     });
   };
