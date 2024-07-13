@@ -1,7 +1,6 @@
 import { useScript } from "deco/hooks/useScript.ts";
 import CardMember from "../components/ui/CardMember.tsx";
 import DropArea from "./DropArea.tsx";
-import { useSection } from "deco/hooks/useSection.ts";
 
 export interface Member {
   /**
@@ -97,7 +96,7 @@ export default function Members({ members, removing, dragging }: MemberProps) {
                         dragging ? "drag-and-drop__item--dragging" : ""
                       }`}
                       hx-on:dragstart={useScript(onDragStart)}
-                      hx-on:dragend={useSection({ props: { dragging: false } })}
+                      hx-on:dragend="dragging = false"
                       hx-data="{ dragging: false }"
                       draggable="true"
                     >
