@@ -1,11 +1,7 @@
 {
   "name": "Team",
   "path": "/*",
-  "sections": [
-    {
-      "__resolveType": "Cards"
-    }
-  ],
+  "sections": [],
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
