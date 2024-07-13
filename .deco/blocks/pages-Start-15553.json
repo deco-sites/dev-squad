@@ -3,6 +3,11 @@
   "path": "/",
   "sections": [
     {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "Who’s the best tech team?",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/5fece576-4a79-4228-9f71-4f7c9e337d64"
+    },
+    {
       "__resolveType": "Cards"
     },
     {

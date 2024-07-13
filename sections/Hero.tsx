@@ -7,17 +7,14 @@ interface Props {
 }
 
 export default function Section({ title, logo }: Props) {
-  return <div>
+  return <header class="flex flex-col items-center text-center py-12 gap-6 text-neutral">
     <Image
-      width={80}
-      height={80}
+      width={60}
+      height={60}
       class="object-fit z-10"
-      sizes="(max-width: 640px) 100vw, 30vw"
-      src={image}
-      alt={image}
-      decoding="async"
-      loading="lazy"
+      src={logo}
+      alt="Project and website logo"
     />
-    <h1>{title}</h1>
-  </div>
+    <h1 class="font-josefin-sans text-3xl md:text-6xl">{title}</h1>
+  </header>
 }
