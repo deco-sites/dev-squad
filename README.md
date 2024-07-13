@@ -1,3 +1,15 @@
+# Generate db (windows)
+```bash
+# Replace this command in `deno.json`
+"db:generate": "deno run -A --node-modules-dir npm:drizzle-kit@0.21.2 generate < NUL"
+
+# Add migration
+deno task db:setup:deps
+
+# Apply migration
+deno task db:schema:update
+```
+
 # Start — deco.cx template 
 
 Welcome to your [deco.cx](https://deco.cx) site!
