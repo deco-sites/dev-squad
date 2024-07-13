@@ -24,6 +24,11 @@ export default defineApp(async (_req, ctx) => {
 
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
+
+        <script src="
+https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js
+        ">
+        </script>
       </Head>
 
       {/* Rest of Preact tree */}
