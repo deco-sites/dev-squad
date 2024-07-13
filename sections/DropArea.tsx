@@ -1,4 +1,3 @@
-import { useSection } from "deco/hooks/useSection.ts";
 import { useScript } from "deco/hooks/useScript.ts";
 
 interface Props {
@@ -6,24 +5,25 @@ interface Props {
 }
 
 export default function DropArea({ adding = false }: Props) {
-  const dragOver = () => {
+  const onDragOverDrop = () => {
     event!.preventDefault();
-    useSection({ props: { adding: true } });
+    adding = true;
   };
 
-  const dragLeave = () => {
+  const onDragLeaveDrop = () => {
     event!.preventDefault();
-    useSection({ props: { adding: false } });
+    adding = false;
   };
 
-  const onDrop = () => {
+  const onDropOver = () => {
     event!.preventDefault();
-    useSection({ props: { adding: false } });
+    adding = false;
 
     const target = event!.target!.closest("ul");
     const element = document.getElementById(
       event!.dataTransfer.getData("text/plain"),
     );
+
     target.appendChild(element);
   };
 
@@ -34,9 +34,9 @@ export default function DropArea({ adding = false }: Props) {
         className={`drag-and-drop__items ${
           adding ? "drag-and-drop__items--adding" : ""
         }`}
-        x-on:drop={useScript(onDrop)}
-        x-on:dragover={useScript(dragOver)}
-        x-on:dragleave={useScript(dragLeave)}
+        hx-on:drop={useScript(onDropOver)}
+        hx-on:dragover={useScript(onDragOverDrop)}
+        hx-on:dragleave={useScript(onDragLeaveDrop)}
       >
       </ul>
     </div>

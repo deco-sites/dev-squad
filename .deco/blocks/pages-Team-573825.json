@@ -4,6 +4,9 @@
   "sections": [
     {
       "__resolveType": "site/sections/Team.tsx"
+    },
+    {
+      "__resolveType": "Footer"
     }
   ],
   "seo": {
