@@ -16,6 +16,7 @@ function Footer({
         {text} {brand && (
           <a
             href={href}
+            class="font-josefin-sans text-primary"
             target="_blank"
           >
             {brand}
