@@ -27,10 +27,10 @@
       {
         "variations": [
           {
-            "weight": "500"
+            "weight": "400"
           }
         ],
-        "family": "Josefin Sans"
+        "family": "Inter"
       }
     ]
   }

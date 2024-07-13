@@ -1,3 +1,6 @@
+import { ImageWidget } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
+
 interface Member {
   /**
    * @description Member name.
@@ -39,21 +42,30 @@ interface MemberProps {
 
 export default function Members({ members }: MemberProps) {
   return (
-    <>
+    <div class="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6">
       {members && members.map((m) => {
         return (
-          <>
-            <p>{m.name}</p>
-            <p>{m.description}</p>
-            <p>{m.imageUrl}</p>
+          <article class="border border-primary rounded-md">
+            {m.imageUrl && (
+              <Image
+                src={m.imageUrl || ""}
+                alt={`Profile picture from ${m.name}` || ""}
+                height={160}
+                width={280}
+              />
+            )}
+            <div class="bg-black text-neutral">
+              <h2>{m.name}</h2>
+              <p class="line-clamp-2">{m.description}</p>
+            </div>
             <p>{m.role}</p>
             <p>{m.score}</p>
             <p>{m.xUrl}</p>
             <p>{m.linkedInUrl}</p>
             <p>{m.gitHubUrl}</p>
-          </>
+          </article>
         );
       })}
-    </>
+    </div>
   );
 }
