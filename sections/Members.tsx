@@ -1,4 +1,5 @@
 import CardMember from "../components/ui/CardMember.tsx";
+import DropArea from "./DropArea.tsx";
 
 export interface Member {
   /**
@@ -41,12 +42,13 @@ interface MemberProps {
 
 export default function Members({ members }: MemberProps) {
   return (
-    <div class="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6">
-      {members && members.map((m) => {
-        return (
-          <CardMember member={m} />
-        );
-      })}
-    </div>
+    <>
+      <div class="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6">
+        {members && members.map((m) => {
+          return <CardMember member={m} />;
+        })}
+      </div>
+      <DropArea adding={false}></DropArea>
+    </>
   );
 }
