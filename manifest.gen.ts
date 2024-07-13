@@ -8,7 +8,6 @@ import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/records.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
 import * as $$$0 from "./loaders/GetPickems.tsx";
-import * as $$$1 from "./loaders/SharePickems.tsx";
 import * as $$$$$$0 from "./sections/Footer.tsx";
 import * as $$$$$$1 from "./sections/Hero.tsx";
 import * as $$$$$$2 from "./sections/ItWorks.tsx";
@@ -17,11 +16,10 @@ import * as $$$$$$4 from "./sections/Team.tsx";
 import * as $$$$$$5 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
-  "loaders": {
+  loaders: {
     "site/loaders/GetPickems.tsx": $$$0,
-    "site/loaders/SharePickems.tsx": $$$1,
   },
-  "sections": {
+  sections: {
     "site/sections/Footer.tsx": $$$$$$0,
     "site/sections/Hero.tsx": $$$$$$1,
     "site/sections/ItWorks.tsx": $$$$$$2,
@@ -29,17 +27,17 @@ const manifest = {
     "site/sections/Team.tsx": $$$$$$4,
     "site/sections/Theme/Theme.tsx": $$$$$$5,
   },
-  "actions": {
+  actions: {
     "site/actions/Decrypt.tsx": $$$$$$$$$0,
     "site/actions/Encrypt.tsx": $$$$$$$$$1,
   },
-  "apps": {
+  apps: {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
     "site/apps/deco/records.ts": $$$$$$$$$$$1,
     "site/apps/site.ts": $$$$$$$$$$$2,
   },
-  "name": "site",
-  "baseUrl": import.meta.url,
+  name: "site",
+  baseUrl: import.meta.url,
 };
 
 export type Manifest = typeof manifest;
