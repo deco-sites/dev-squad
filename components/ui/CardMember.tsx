@@ -2,19 +2,19 @@ import Image from "apps/website/components/Image.tsx";
 
 import { Member } from "site/sections/Members.tsx";
 
-export default function Members({ member }: Member) {
+export default function Members({ member, selected }: { member: Member, selected?: string }) {
   return (
-    <article class="@container bg-black text-neutral border border-primary rounded-md">
+    <article class={`@container bg-black text-neutral border border-primary rounded-md flex flex-wrap items-center ${member.name === selected && 'scale-110'}`}>
       {member.imageUrl && (
         <Image
           src={member.imageUrl || ""}
           alt={`Profile picture from ${member.name}` || ""}
           height={160}
           width={280}
-          class="rounded-md w-full h-24 md:h-32 @card:h-auto object-cover"
+          class="rounded-md w-full h-24 md:h-32 @card:h-auto @card-showcase:w-2/5 @card-showcase:h-[200px] @card-showcase:md:h-[300px] object-cover"
         />
       )}
-      <div class="hidden p-4 lg:p-6 @card:flex flex-col gap-3 lg:gap-6">
+      <div class="hidden p-4 lg:p-6 @card:flex flex-col gap-3 lg:gap-6 @card-showcase:w-3/5">
         <header class="flex flex-col gap-1 lg:gap-3">
           <h2 class="font-josefin-sans text-lg lg:text-xl">{member.name}</h2>
           <p class="line-clamp-2 text-xs">{member.description}</p>

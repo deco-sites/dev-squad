@@ -13,6 +13,7 @@ export default {
       },
       containers: {
         card: "120px",
+        "card-showcase": "320px",
       },
     },
   },

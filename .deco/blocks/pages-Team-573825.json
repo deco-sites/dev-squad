@@ -3,6 +3,11 @@
   "path": "/*",
   "sections": [
     {
+      "__resolveType": "site/sections/Hero.tsx",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11716/873b50b1-68b6-4e4f-b4d0-93541f66da66",
+      "title": "The best team for them!"
+    },
+    {
       "__resolveType": "site/sections/Team.tsx",
       "pickem": {
         "__resolveType": "Preview /loaders/GetPickems.tsx"

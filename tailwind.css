@@ -50,7 +50,10 @@
 * Custom Styles
 */
 body {
-  @apply border-x-8 md:border-x-[24px] border-primary;
+  @apply border-x-4 md:border-x-[24px] border-primary min-h-screen flex flex-col;
+}
+section:has(footer) {
+  @apply mt-auto;
 }
 
 /* Draggable */
