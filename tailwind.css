@@ -50,7 +50,7 @@
 * Custom Styles
 */
 body {
-  @apply border-x-4 md:border-x-[24px] border-primary min-h-screen flex flex-col;
+  @apply md:border-x-[18px] border-primary min-h-screen flex flex-col;
 }
 section:has(footer) {
   @apply mt-auto;
@@ -58,5 +58,5 @@ section:has(footer) {
 
 /* Draggable */
 #drop-area:not(:has(article)) {
-  @apply text-neutral before:content-['Drag_&_drop_your_team_here_(max_5)'] before:place-self-center before:col-start-1 before:col-end-6 before:row-start-1 before:row-end-1 before:text-center before:z-10 after:border after:border-dashed after:row-start-1 after:row-end-1 after:col-start-3 after:col-end-3 after:w-16 after:md:w-20 after:h-24 after:rounded-md after:opacity-50;
+  @apply text-neutral before:content-['Drag_&_drop_your_team_here_(max_5)'] before:place-self-center before:col-start-1 before:col-end-6 before:row-start-1 before:row-end-1 before:text-center before:z-10 after:border after:border-dashed after:row-start-1 after:row-end-1 after:col-start-3 after:col-end-3 after:w-16 after:h-24 after:rounded-md after:opacity-50;
 }

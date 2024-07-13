@@ -33,7 +33,7 @@ export default function Draggable({ members }: DraggableProps) {
       />
 
       <div
-        class="container max-w-[1280px] mx-auto bg-neutral bg-opacity-5 py-8 px-4 md:p-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 rounded-lg"
+        class="container max-w-[1280px] mx-auto bg-neutral bg-opacity-5 py-8 px-4 md:p-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 rounded-t-2xl"
         id="grid-cards"
       >
         {members && members.map((m) => {
@@ -41,7 +41,7 @@ export default function Draggable({ members }: DraggableProps) {
         })}
       </div>
 
-      <div class="bg-base-100 fixed bottom-6 left-1/2 -translate-x-1/2 grid grid-flow-col auto-cols-[64px] place-content-center gap-2 md:gap-4 w-full max-w-[340px] h-28 p-4 border border-primary rounded-md" id="drop-area">
+      <div class="bg-base-100 fixed bottom-6 left-1/2 -translate-x-1/2 grid grid-flow-col auto-cols-[64px] place-content-center gap-2 w-full max-w-[360px] h-28 p-4 border border-primary rounded-md" id="drop-area">
       </div>
     </>
   );
