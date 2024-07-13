@@ -3,7 +3,10 @@
   "path": "/*",
   "sections": [
     {
-      "__resolveType": "site/sections/Team.tsx"
+      "__resolveType": "site/sections/Team.tsx",
+      "pickem": {
+        "__resolveType": "Preview /loaders/GetPickems.tsx"
+      }
     },
     {
       "__resolveType": "Footer"

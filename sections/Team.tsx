@@ -1,23 +1,29 @@
 import { Member } from "site/sections/Members.tsx";
+import { Pickem } from "site/loaders/GetPickems.tsx";
 
-interface TeamProps {
-  members?: Member[];
-}
+export default function Team({ pickem }: { pickem: Pickem }) {
+  let members: Member[] = [];
+  if (pickem?.json) {
+    members = JSON.parse(pickem.json) as Member[];
+    console.log(members);
+  }
 
-export default function Team({ members }: TeamProps) {
-  console.log(members);
-  // console.log(hash);
-  // const json = btoa(hash);
-  // const members = JSON.parse(json) as Member[];
   return (
-    <div>
-      {members && members.map((m) => {
+    <>
+      {members.map((m) => {
         return (
           <>
-            <p>{m.name}</p>
+            <p class="text-white">Hello {m.name}</p>
+            <p class="text-white">Hello {m.description}</p>
+            <p class="text-white">Hello {m.imageUrl}</p>
+            <p class="text-white">Hello {m.role}</p>
+            <p class="text-white">Hello {m.score}</p>
+            <p class="text-white">Hello {m.xUrl}</p>
+            <p class="text-white">Hello {m.linkedInUrl}</p>
+            <p class="text-white">Hello {m.gitHubUrl}</p>
           </>
         );
       })}
-    </div>
+    </>
   );
 }
