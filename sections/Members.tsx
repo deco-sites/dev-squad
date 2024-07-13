@@ -1,5 +1,4 @@
 interface Member {
-  id: number;
   /**
    * @description Member name.
    */
@@ -44,7 +43,6 @@ export default function Members({ members }: MemberProps) {
       {members && members.map((m) => {
         return (
           <>
-            <p>{m.id}</p>
             <p>{m.name}</p>
             <p>{m.description}</p>
             <p>{m.imageUrl}</p>
