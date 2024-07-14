@@ -50,7 +50,7 @@
 * Custom Styles
 */
 body {
-  @apply md:border-x-[18px] border-primary min-h-svh flex flex-col;
+  @apply text-neutral md:border-x-[18px] border-primary min-h-svh flex flex-col;
 }
 section:has(> footer) {
   @apply mt-auto;
